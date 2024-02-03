@@ -2,3 +2,4 @@
 Linux Foundation Certified System Administrator
 
 I'll be going through the LFSA material for my own learning.
+We'll start with basics.
