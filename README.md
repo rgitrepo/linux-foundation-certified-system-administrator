@@ -7,7 +7,7 @@ These are notes for the LFCS course.
 
 - [01-Essential Commands](docs/)
 
-  - [01-Log into local & remote graphical and text mode consoles](docs/)
+  - [01-Log into local & remote graphical and text mode consoles](docs/01-Essential-Commands/01-Log-Into-Local-And-Remove-Graphical-And-Text-Mode-Consoles.md)
   - [02-Read, and use System Documentation](docs/)
   - [03-Create, Delete, Copy, and Move Files and Directories](docs/)
   - [04-List, set, and change standard file permissions](docs/)
