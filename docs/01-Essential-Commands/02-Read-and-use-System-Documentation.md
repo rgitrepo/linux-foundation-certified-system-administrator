@@ -54,13 +54,33 @@ The `apropos` command searches the manual page names and descriptions for a give
 apropos search
 ```
 
-**Simulated Output:**
+**Output:**
 ```
 grep (1)              - print lines matching a pattern
 find (1)              - search for files in a directory hierarchy
 locate (1)            - find files by name
 ...
 ```
+
+When using `apropos` to search for "director," it's possible that terms closely related or containing the substring "director" like "directory" will also show up in the search results. This is because `apropos` searches the manual page names and descriptions for any match to the given keyword, and "director" is a substring of "directory."
+
+**Example Command:**
+```bash
+apropos director
+```
+
+**Output:**
+```
+ls (1)               - list directory contents
+mkdir (1)            - make directories
+rmdir (1)            - remove empty directories
+pwd (1)              - print name of current/working directory
+chdir (2)            - change working directory
+```
+
+In this simulated output, you can see that `apropos` returned results related to "directory" since "director" is part of the word "directory." In a real scenario, unless there are specific commands or manual pages that include "director" as a standalone term, you're likely to get results primarily for "directory."
+
+If you're specifically interested in commands that might more closely match "director" without including "directory," you might try refining your search or using different keywords that are more specific to the context or functionality you're interested in exploring.
 
 ### 4. Autocomplete Using Tab
 
