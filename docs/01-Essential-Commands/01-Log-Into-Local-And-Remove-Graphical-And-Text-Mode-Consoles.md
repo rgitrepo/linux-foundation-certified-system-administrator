@@ -1,4 +1,4 @@
-# 01-Log into local & remote graphical and text mode consoles
+## 01-Log into local & remote graphical and text mode consoles
 
 Linux has become increasingly popular due to its open-source nature and flexibility. It offers a stable and secure environment for developers, equipped with a broad array of tools and applications for various requirements. With the rise of cloud computing and growing concerns over data privacy and security, Linux is now being recognized as a viable option for businesses and organizations around the world.
 
