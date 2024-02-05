@@ -1,3 +1,5 @@
+## 01-Log into local & remote graphical and text mode consoles
+
 Linux has become increasingly popular due to its open-source nature and flexibility. It offers a stable and secure environment for developers, equipped with a broad array of tools and applications for various requirements. With the rise of cloud computing and growing concerns over data privacy and security, Linux is now being recognized as a viable option for businesses and organizations around the world.
 
 In this article, we will explore methods to access a Linux system, whether it is located locally or remotely. We will discuss both text-mode and graphical-mode access, providing a comprehensive guide for users.
