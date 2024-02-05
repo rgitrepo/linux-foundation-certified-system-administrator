@@ -39,7 +39,7 @@ Nowadays, with the prevalence of cloud services, logging into remote systems has
 
 While most Linux servers lack a GUI, exceptions exist. Remote graphical logins can vary since the setup depends on the server's configuration. Options include VNC (Virtual Network Computing) for which you'd need a compatible VNC client like TightVNC or RealVNC, or perhaps an RDP (Remote Desktop Protocol) solution for Windows users, accessible through the "Remote Desktop Connection" application. The process essentially boils down to using the right application to connect to the server's IP address using your username and password.
 
-![VNC Login](../../images/VNC%20Login.jpg)  ![RDP Login](../../images/RDP-Login.png)
+![VNC Login](../../images/VNC%20Login.jpg)                  ![RDP Login](../../images/RDP-Login.png)
 
 #### Logging into Remote Systems with SSH (Text-mode Logins)
 
