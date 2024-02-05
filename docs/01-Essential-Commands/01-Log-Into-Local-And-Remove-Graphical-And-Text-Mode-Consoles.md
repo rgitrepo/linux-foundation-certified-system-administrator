@@ -39,13 +39,15 @@ Nowadays, with the prevalence of cloud services, logging into remote systems has
 
 While most Linux servers lack a GUI, exceptions exist. Remote graphical logins can vary since the setup depends on the server's configuration. Options include VNC (Virtual Network Computing) for which you'd need a compatible VNC client like TightVNC or RealVNC, or perhaps an RDP (Remote Desktop Protocol) solution for Windows users, accessible through the "Remote Desktop Connection" application. The process essentially boils down to using the right application to connect to the server's IP address using your username and password.
 
-![VNC Login](../../images/VNC%20Login.jpg)                  ![RDP Login](../../images/RDP-Login.png)
+![VNC Login](../../images/VNC%20Login.jpg)  ![RDP Login](../../images/RDP-Login.png)
 
 #### Logging into Remote Systems with SSH (Text-mode Logins)
 
 For text-based remote connections, SSH (Secure Shell) is the standard, thanks to its secure, encrypted communication protocol, which replaced the insecure telnet. OpenSSH, the implementation of SSH used by millions of servers, ensures that connections are both secure and reliable. 
 
 To connect via SSH, you'll need the IP address of your server. On Linux or macOS, you can use the preinstalled SSH client by opening a terminal and typing a command like `ssh user@192.168.0.17`, replacing "user" with your actual username and "192.168.0.17" with your server's IP address. Windows users on versions prior to Windows 10 may need to install an SSH client like PuTTY, while newer versions come with SSH support out of the box.
+
+![Windows Putty](../../images/Putty.webp)
 
 Whether you're logging in locally or remotely, understanding these basics ensures you can securely access and manage your Linux systems.
 
