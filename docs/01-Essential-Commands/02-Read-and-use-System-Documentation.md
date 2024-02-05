@@ -1,3 +1,5 @@
+## 02-Read, and use System Documentation
+
 Creating actual screenshots is outside my current capabilities, but I can provide you with detailed explanations and simulated command-line inputs and outputs for `--help`, `man`, `apropos`, and using autocomplete with Tab. This should help you visualize what you would see in a terminal window.
 
 ### 1. `--help` Option
