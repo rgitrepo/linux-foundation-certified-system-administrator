@@ -9,7 +9,7 @@ The `--help` option with a command in the Linux terminal provides a quick overvi
 ls --help
 ```
 
-**Simulated Output:**
+**Output:**
 ```
 Usage: ls [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).
@@ -30,7 +30,7 @@ The `man` command opens the manual page for a given command, providing a compreh
 man ls
 ```
 
-**Simulated Output:**
+**Output:**
 ```
 LS(1)                     User Commands                    LS(1)
 
