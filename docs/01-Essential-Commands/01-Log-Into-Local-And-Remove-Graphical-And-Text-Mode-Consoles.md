@@ -13,7 +13,7 @@ It's common to come across terms such as "console," "virtual terminal," and "ter
 
 The origin of these terms dates back to when computers were a rare and expensive resource, often shared among multiple users in a university or research setting through physical consoles or terminals. This was a cost-effective way to provide computing access to many users.
 
-In the Linux environment of today, consoles and terminals are mostly software entities. For example, the console is what you see when Linux boots up and displays system messages. Pressing CTRL+ALT+F2 brings up a virtual terminal. And when you need to enter commands on a Linux system with a graphical user interface, you use a terminal emulator.
+In the Linux environment of today, consoles and terminals are mostly software entities. For example, the console is what you see when Linux boots up and displays system messages. Pressing 'CTRL+ALT+F2' brings up a virtual terminal. And when you need to enter commands on a Linux system with a graphical user interface, you use a terminal emulator.
 
 ### Logging into Local Linux Systems
 
