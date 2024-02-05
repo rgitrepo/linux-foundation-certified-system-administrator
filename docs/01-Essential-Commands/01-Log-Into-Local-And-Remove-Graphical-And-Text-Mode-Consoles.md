@@ -13,7 +13,7 @@ It's common to come across terms such as "console," "virtual terminal," and "ter
 
 The origin of these terms dates back to when computers were a rare and expensive resource, often shared among multiple users in a university or research setting through physical consoles or terminals. This was a cost-effective way to provide computing access to many users.
 
-In the Linux environment of today, consoles and terminals are mostly software entities. For example, the console is what you see when Linux boots up and displays system messages. Pressing CTRL+ALT+F2 brings up a virtual terminal. And when you need to enter commands on a Linux system with a graphical user interface, you use a terminal emulator.
+In the Linux environment of today, consoles and terminals are mostly software entities. For example, the console is what you see when Linux boots up and displays system messages. Pressing <strong>CTRL+ALT+F2</strong> brings up a virtual terminal. And when you need to enter commands on a Linux system with a graphical user interface, you use a terminal emulator.
 
 ### Logging into Local Linux Systems
 
@@ -39,11 +39,21 @@ Nowadays, with the prevalence of cloud services, logging into remote systems has
 
 While most Linux servers lack a GUI, exceptions exist. Remote graphical logins can vary since the setup depends on the server's configuration. Options include VNC (Virtual Network Computing) for which you'd need a compatible VNC client like TightVNC or RealVNC, or perhaps an RDP (Remote Desktop Protocol) solution for Windows users, accessible through the "Remote Desktop Connection" application. The process essentially boils down to using the right application to connect to the server's IP address using your username and password.
 
+![VNC Login](../../images/VNC%20Login.jpg)  ![RDP Login](../../images/RDP-Login.png)
+
 #### Logging into Remote Systems with SSH (Text-mode Logins)
 
 For text-based remote connections, SSH (Secure Shell) is the standard, thanks to its secure, encrypted communication protocol, which replaced the insecure telnet. OpenSSH, the implementation of SSH used by millions of servers, ensures that connections are both secure and reliable. 
 
-To connect via SSH, you'll need the IP address of your server. On Linux or macOS, you can use the preinstalled SSH client by opening a terminal and typing a command like `ssh user@192.168.0.17`, replacing "user" with your actual username and "192.168.0.17" with your server's IP address. Windows users on versions prior to Windows 10 may need to install an SSH client like PuTTY, while newer versions come with SSH support out of the box.
+To connect via SSH, you'll need the IP address of your server. On Linux or macOS, you can use the preinstalled SSH client by opening a terminal and typing a command like `ssh user@192.168.0.17`, replacing "user" with your actual username and "192.168.0.17" with your server's IP address. 
+
+I can guide you through a textual representation of what entering an SSH command into a terminal to connect to a remote server would look like, using the provided IP address `192.168.0.17`. However, please remember that I can't execute real commands or show live terminal output. Let's assume your remote server's username is `user`. Here's how you'd proceed:
+
+![ssh login](../../images/ssh-login.png)
+
+Windows users on versions prior to Windows 10 may need to install an SSH client like PuTTY, while newer versions come with SSH support out of the box.
+
+![Windows Putty](../../images/Putty.webp)
 
 Whether you're logging in locally or remotely, understanding these basics ensures you can securely access and manage your Linux systems.
 
