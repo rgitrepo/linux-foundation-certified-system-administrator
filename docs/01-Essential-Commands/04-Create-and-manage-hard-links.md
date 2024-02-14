@@ -39,9 +39,7 @@ For instance, if we have an image called `family_dog.jpg` and we want to create 
 ln family_dog.jpg dog_link.jpg
 ```
 
-This command creates a new entry in the directory for `
-
-dog_link.jpg`, **which points to the same inode as** `family_dog.jpg`. 
+This command creates a new entry in the directory for `dog_link.jpg`, which points to the same inode as `family_dog.jpg`. 
 
 #### Viewing Inode Information
 
