@@ -11,7 +11,7 @@ These are notes for the LFCS course.
   - [02-Read, and use System Documentation](docs/01-Essential-Commands/02-Read-and-use-System-Documentation.md)
   - [03-Create, Delete, Copy, and Move Files and Directories](docs/docs\01-Essential-Commands\04-List-set-and-change-standard-file-permissions)
   - [04-Create and manage hard links](docs/01-Essential-Commands/04-Create-and-manage-hard-links)
-  - [05-Create and manage soft links](docs)
+  - [05-Create and manage soft links](docs/01-Essential-Commands/05-Create-and-manage-soft-links.md)
   - [06-List, set, and change standard file permissions](docs/01-Essential-Commands/06-List-set-and-change-standard-file-permissions)
   - [07-SUID, SGID, and Sticky Bit](docs/)
   - [08-Search for files](docs/)
