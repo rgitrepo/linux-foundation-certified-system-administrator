@@ -41,7 +41,7 @@ ln family_dog.jpg dog_link.jpg
 
 This command creates a new entry in the directory for `
 
-dog_link.jpg`, which points to the same inode as `family_dog.jpg`. 
+dog_link.jpg`, **which points to the same inode as** `family_dog.jpg`. 
 
 #### Viewing Inode Information
 
