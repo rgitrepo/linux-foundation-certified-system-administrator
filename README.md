@@ -13,7 +13,7 @@ These are notes for the LFCS course.
   - [04-Create and manage hard links](docs/01-Essential-Commands/04-Create-and-manage-hard-links)
   - [05-Create and manage soft links](docs/01-Essential-Commands/05-Create-and-manage-soft-links.md)
   - [06-List, set, and change standard file permissions](docs/01-Essential-Commands/06-List-set-and-change-standard-file-permissions.md)
-  - [07-SUID, SGID, and Sticky Bit](docs/)
+  - [07-SUID, SGID, and Sticky Bit](docs/01-Essential-Commands/07-SUID-SGID-and-Sticky-Bit.md)
   - [08-Search for files](docs/)
   - [09-Analyze text using basic regular expressions](docs/)
   - [10-Extended Regular Expressions](docs/)
