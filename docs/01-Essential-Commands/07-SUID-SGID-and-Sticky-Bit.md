@@ -1,4 +1,4 @@
-## The Ultimate Guide to Mastering SUID, SGID, and Sticky Bit in Linux
+## 07-SUID, SGID, and Sticky Bit
 
 Hey there! If you're diving into the Linux world, understanding file permissions is like unlocking a new level in a game. Today, I'm going to walk you through some special permissions: SUID, SGID, and the Sticky Bit. These are the secret sauces to managing secure and effective file access on your system. So, grab a cup of coffee, and let's get started on this enlightening journey together.
 
