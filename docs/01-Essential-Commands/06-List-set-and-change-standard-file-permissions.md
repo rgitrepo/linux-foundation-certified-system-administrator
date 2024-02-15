@@ -1,4 +1,4 @@
-## List set and change standard file permissions
+## 06-List set and change standard file permissions
 
 Welcome to my tutorial on Linux file permissions! As someone who's navigated the Linux filesystem's intricacies, I want to share my insights on how to manage file permissions effectively. This guide will introduce you to the basics of Linux permissions, including how to change them using commands like `chgrp`, `chown`, `chmod`, and understanding octal permission notations. Let's dive into the world of Linux permissions with examples to help you along the way.
 
