@@ -12,7 +12,7 @@ When you list files in a directory with `ls -l`, you'll see an output like this:
 -rwxr-xr-- 1 alice staff 4096 Jan 1 12:34 example.txt
 ```
 
-Here is what those symbols mean:
+Here's what those symbols mean:
 - The first character indicates the file type (`-` for a regular file, `d` for a directory).
 - The next three characters (`rwx`) show the owner's permissions (read, write, execute).
 - The following three (`r-x`) represent the group's permissions.
