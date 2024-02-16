@@ -1,4 +1,4 @@
-# Mastering File Search in Linux: A Comprehensive Guide
+# Search for files
 
 Hello, fellow Linux enthusiasts! Today, we're diving into the art of file searching in Linux. Whether you're tidying up your directories, auditing files for permissions, or just locating that elusive document, mastering the `find` command is a game-changer. Let's walk through the basics and gradually explore more advanced searches with real-world examples. Grab your terminal, and let's get started!
 
