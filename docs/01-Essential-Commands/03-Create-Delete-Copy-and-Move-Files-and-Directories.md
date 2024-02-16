@@ -1,8 +1,8 @@
-## 03-Create, Delete, Copy, and Move Files and Directories
+# 03-Create, Delete, Copy, and Move Files and Directories
 
 To effectively combine the detailed explanations with simulated outputs for a comprehensive understanding of basic Linux commands, we'll maintain a focus on clarity and relevance, avoiding redundancy in simulated outputs.
 
-### Understanding Basic Linux Commands with Simulated Outputs
+## Understanding Basic Linux Commands with Simulated Outputs
 
 1. **Creating Directories: `mkdir`**
    - **Use:** Creates a new directory.
@@ -29,7 +29,7 @@ To effectively combine the detailed explanations with simulated outputs for a co
    - **Command:** `mv /home/david/Invoice.pdf /home/david/Invoice_Old.pdf`
    - **Expected Result:** `Invoice.pdf` in `/home/david` is renamed to `Invoice_Old.pdf`.
 
-### Detailed Listing and Hidden Files
+## Detailed Listing and Hidden Files
 
 - **Command:** `ls -al /home/raja`
 - **Simulated Output:**
@@ -41,17 +41,17 @@ To effectively combine the detailed explanations with simulated outputs for a co
   ```
 - **Explanation:** Shows all files (including hidden) in `/home/raja` in a detailed format, including permissions, owner, and size.
 
-### Navigating Directories
+## Navigating Directories
 
 - **Understanding Paths:** Use `cd` to change directories, utilizing absolute or relative paths. `cd /` takes you to the root, while `cd ..` moves up one directory level.
 
-### Copying Directories: `cp -r`
+## Copying Directories: `cp -r`
 
 - **Use:** Recursively copies directories.
 - **Command:** `cp -r /home/raja /home/backup_raja`
 - **Expected Result:** A complete copy of `/home/raja` is created at `/home/backup_raja`.
 
-### Viewing Current Directory: `pwd`
+## Viewing Current Directory: `pwd`
 
 - **Use:** Displays the current working directory.
 - **Running `pwd` in `/home/raja` gives:**
