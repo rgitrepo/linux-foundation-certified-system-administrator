@@ -1,8 +1,8 @@
-## 06-List set and change standard file permissions
+# 06-List set and change standard file permissions
 
 Welcome to my tutorial on Linux file permissions! As someone who's navigated the Linux filesystem's intricacies, I want to share my insights on how to manage file permissions effectively. This guide will introduce you to the basics of Linux permissions, including how to change them using commands like `chgrp`, `chown`, `chmod`, and understanding octal permission notations. Let's dive into the world of Linux permissions with examples to help you along the way.
 
-### Understanding Linux File Permissions
+## Understanding Linux File Permissions
 
 In Linux, each file and directory has a set of permissions that determine who can read, write, or execute them. These permissions are crucial for maintaining system security and ensuring that files are accessible to the right users and groups.
 
@@ -18,9 +18,9 @@ Here's what those symbols mean:
 - The following three (`r-x`) represent the group's permissions.
 - The last three (`r--`) display permissions for others.
 
-### Changing File Ownership with `chown` and `chgrp`
+## Changing File Ownership with `chown` and `chgrp`
 
-#### Using `chown`
+### Using `chown`
 
 To change the owner of a file, use the `chown` command. For example, to change the owner of `example.txt` to `bob`:
 
@@ -28,7 +28,7 @@ To change the owner of a file, use the `chown` command. For example, to change t
 chown bob example.txt
 ```
 
-#### Using `chgrp`
+### Using `chgrp`
 
 To change the group ownership of a file, you use `chgrp`. For instance, to change the group of `example.txt` to `developers`:
 
@@ -36,9 +36,9 @@ To change the group ownership of a file, you use `chgrp`. For instance, to chang
 chgrp developers example.txt
 ```
 
-### Modifying Permissions with `chmod`
+## Modifying Permissions with `chmod`
 
-#### Symbolic Mode
+### Symbolic Mode
 
 The `chmod` command changes the file's mode. You can add, remove, or set permissions using symbolic notation (`u` for user, `g` for group, `o` for others, `a` for all):
 
@@ -60,7 +60,7 @@ The `chmod` command changes the file's mode. You can add, remove, or set permiss
   chmod u=rw,go= example.txt
   ```
 
-#### Octal Mode
+### Octal Mode
 
 Permissions can also be set using octal (numeric) notation. This method uses three digits to represent the permissions for the owner, group, and others, respectively:
 
@@ -77,7 +77,7 @@ chmod 640 example.txt
 
 This gives the owner read and write (4+2=6) permissions, the group read (4) permissions, and others no permissions (0).
 
-### Practical Examples
+## Practical Examples
 
 Let's apply what we've learned with some practical examples:
 
@@ -103,7 +103,7 @@ Let's apply what we've learned with some practical examples:
 
    This ensures that only the owner has read and write access, and nobody else can access the file.
 
-### Conclusion
+## Conclusion
 
 Understanding and managing file permissions in Linux is a fundamental skill that enhances your system's security and functionality. By mastering commands like `chown`, `chgrp`, and `chmod`, you can ensure that files and directories have the correct permissions, safeguarding your system against unauthorized access.
 

@@ -1,8 +1,8 @@
-## 02-Read, and use System Documentation
+# 02-Read, and use System Documentation
 
 Creating actual screenshots is outside my current capabilities, but I can provide you with detailed explanations and simulated command-line inputs and outputs for `--help`, `man`, `apropos`, and using autocomplete with Tab. This should help you visualize what you would see in a terminal window.
 
-### 1. `--help` Option
+## 1. `--help` Option
 
 The `--help` option with a command in the Linux terminal provides a quick overview of how to use the command, its options, and sometimes examples of its usage. It's a fast way to get help directly in the terminal without diving into the more detailed manual pages.
 
@@ -23,7 +23,7 @@ Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
   --version                  output version information and exit
 ```
 
-### 2. `man` Command
+## 2. `man` Command
 
 The `man` command opens the manual page for a given command, providing a comprehensive overview of the command, its syntax, options, and often examples of how to use it. It's the go-to for detailed documentation about Linux commands.
 
@@ -47,7 +47,7 @@ DESCRIPTION
 ...
 ```
 
-### 3. `apropos` Command
+## 3. `apropos` Command
 
 The `apropos` command searches the manual page names and descriptions for a given keyword and returns a list of commands related to that keyword. It's useful when you're not sure about the exact command you need.
 
@@ -87,7 +87,7 @@ If you're specifically interested in commands that might more closely match "dir
 
 The `mandb` command in Linux generates and updates the manual page index databases, which are essential for the `man` and `apropos` commands. By scanning the manual pages located in directories like `/usr/share/man`, it extracts key information such as command names, section numbers, and descriptions. This information is then indexed in a database, enabling efficient keyword searches with `apropos`. This process ensures that users can quickly find manual pages related to specific topics or commands. To keep the database current, `mandb` should be run periodically, especially after adding or updating manual pages, a task often automated by the system.
 
-### 4. Autocomplete Using Tab
+## 4. Autocomplete Using Tab
 
 In the terminal, when you start typing a command or file path and press the Tab key, the terminal tries to autocomplete what you're typing based on the available commands and files. If there's only one possible completion, it will complete the command or filename for you. If there are multiple, pressing Tab twice will list the possibilities.
 
