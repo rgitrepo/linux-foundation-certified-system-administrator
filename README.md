@@ -21,7 +21,7 @@ These are notes for the LFCS course.
   - [12-Extended Regular Expressions](docs/01-Essential-Commands/12-Extended-Regular-Experssions.md)
   - [13-Archive, backup, compress, unpack, and uncompress files (Optional)](docs/01-Essential-Commands/13-Archive-backup-compress-uncompress-files-optional.md)
   - [14-Compress and Uncompress files (Optional)](docs/01-Essential-Commands/14-Compress-and-Uncompress-files-optional.md)
-  - [15-Backup files to a Remote System (Optional)](docs/)
+  - [15-Backup files to a Remote System (Optional)](docs/01-Essential-Commands/15-Backup-files-to-a-Remote-System-optional.md)
   - [16-Use input-output redirection](docs/)
   - [17-Work with SSL certificates✨](docs/)
   - [18-Git – Basic Operations✨](docs/)
