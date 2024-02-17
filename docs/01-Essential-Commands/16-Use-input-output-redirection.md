@@ -1,4 +1,4 @@
-# M16 Use Input-Output Redirection in Linux
+# 16 Use Input-Output Redirection in Linux
 
 Hello, Linux explorers! Today's session is dedicated to the powerful concept of input and output redirection. This feature of Linux shell commands allows you to direct the output of commands to files, input from files to commands, and even shuffle error messages around. Let's get started with practical examples and explanations.
 
