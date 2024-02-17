@@ -1,4 +1,4 @@
-# 10 Search file using Grep
+# 10-Search file using Grep
 
 Hello, Linux adventurers! Today, we're going to unravel the mysteries of searching text in files using one of the most powerful tools in the Linux arsenal: `grep`. Whether you're sifting through code, searching for a configuration setting, or hunting for a specific log entry, `grep` is your go-to command. Let's dive into the syntax, options, and practical uses of `grep` to enhance your file-searching capabilities.
 

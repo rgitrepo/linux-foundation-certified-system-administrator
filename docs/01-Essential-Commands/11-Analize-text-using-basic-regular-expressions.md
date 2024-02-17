@@ -1,4 +1,4 @@
-# 11 Analyze text using basic regular expressions
+# 11-Analyze text using basic regular expressions
 
 Hello again, Linux enthusiasts! Ready to dive deeper into the world of text analysis? Today, we're focusing on leveraging the power of regular expressions (regex) with `grep` for more sophisticated text searching techniques. Regular expressions are the backbone of pattern matching and text manipulation, and when combined with `grep`, they form an incredibly versatile tool for sifting through text. Let's explore some advanced regex operators and how to use them effectively with `grep`.
 
