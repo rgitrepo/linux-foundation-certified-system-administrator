@@ -17,7 +17,7 @@ These are notes for the LFCS course.
   - [08-Search for files](docs/01-Essential-Commands/08-Search-for-files.md)
   - [09-Compare and manipulate file content](docs/01-Essential-Commands/09-Compare-and-manipulate-file-content.md)
   - [10-Search file using Grep](docs/01-Essential-Commands/10-Search-file-using-Grep)
-  - [11-Analyze text using basic regular expressions](docs/)
+  - [11-Analyze text using basic regular expressions](docs/01-Essential-Commands/11-Analize-text-using-basic-regular-expressions.md)
   - [12-Extended Regular Expressions](docs/)
   - [13-Archive, backup, compress, unpack, and uncompress files (Optional)](docs/)
   - [14-Compress and Uncompress files (Optional)](docs/)
