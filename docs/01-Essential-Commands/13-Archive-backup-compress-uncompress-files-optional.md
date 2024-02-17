@@ -1,4 +1,4 @@
-# 13 Archiving, Compressing, and Backup in Linux with `tar`
+# 13-Archiving, Compressing, and Backup in Linux with `tar`
 
 Hello, Linux navigators! Today, we'll explore the essentials of file archiving, compressing, and backing up in Linux using the `tar` command. Whether you're safeguarding your precious data or just organizing files, mastering `tar` is a skill that greatly enhances your Linux toolbox. Let's break down the process into easy-to-understand steps and demonstrate with practical examples.
 

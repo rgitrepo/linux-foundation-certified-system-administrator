@@ -1,4 +1,4 @@
-# 12 Extended Regular Expressions
+# 12-Extended Regular Expressions
 
 Welcome back, Linux enthusiasts! Today's journey delves into the powerful realm of Extended Regular Expressions (EREs) and their use with `egrep` (or `grep -E`). EREs enhance the basic capabilities of regular expressions, providing a more expressive syntax for complex pattern matching. Let's explore how to utilize `egrep` to perform advanced text searches, gradually building our knowledge through practical examples.
 

@@ -1,4 +1,4 @@
-# 09 Compare and Manipulate File Content
+# 09-Compare and Manipulate File Content
 
 Hello, Linux explorers! Today, we're embarking on an adventure through the world of file content manipulation. Whether you're a budding developer, a system administrator, or just a Linux enthusiast, knowing how to compare and manipulate file content is a cornerstone of Linux proficiency. So, let's dive into the commands and techniques that make Linux such a powerful operating system for handling text files.
 

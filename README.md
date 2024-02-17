@@ -24,7 +24,7 @@ These are notes for the LFCS course.
   - [15-Backup files to a Remote System (Optional)](docs/01-Essential-Commands/15-Backup-files-to-a-Remote-System-optional.md)
   - [16-Use input-output redirection](docs/01-Essential-Commands/16-Use-input-output-redirection.md)
   - [17-Work with SSL certificates✨](docs/01-Essential-Commands/17-Work-with-SSL-certificates.md)
-  - [18-Git – Basic Operations✨](docs/)
+  - [18-Git – Basic Operations✨](docs/01-Essential-Commands/18-Git-basic-operations.md)
   - [19-Git – Staging and Committing Changes✨](docs/)
   - [20-Git – Branches and Remote Repositories✨](docs/)
 

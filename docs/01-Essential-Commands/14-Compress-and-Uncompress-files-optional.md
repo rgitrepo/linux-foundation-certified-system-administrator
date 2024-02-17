@@ -1,4 +1,4 @@
-# 14 Compression and Decompression in Linux
+# 14-Compression and Decompression in Linux
 
 Welcome, Linux enthusiasts! In this tutorial, we'll explore the powerful world of compression and decompression utilities in Linux. These tools are essential for managing file sizes, optimizing storage, and ensuring efficient file transfers. We'll cover `gzip`, `bzip2`, `xz`, and also touch on `zip` and `tar` for a broader understanding. Let's compress our way through, shall we?
 
