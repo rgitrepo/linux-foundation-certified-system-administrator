@@ -136,7 +136,34 @@ As a result, the search results (`stdout`) will be written to `all_output.txt`, 
 
 The key takeaway here is that the shell processes redirections in the order they appear on the command line. In Scenario 3, by the time the shell wants to redirect `stdout` to the file, `stderr` has already been told to go wherever `stdout` was originally going (the screen), and changing `stdout` afterwards does not affect `stderr`.
 
-"In Linux shell commands, the order of redirection is crucial. When redirecting both `stdout` and `stderr`, ensure to redirect `stdout` before using `2>&1` to redirect `stderr` to the same destination. If the order is reversed, you may find that your errors still display on the screen rather than in the intended file, as `stderr` was directed to the original location of `stdout` before it was redirected to the file. Always check the sequence of redirections to confirm that the outputs will be routed to the correct destinations."
+"In Linux shell commands, the order of redirection is crucial. When redirecting both `stdout` and `stderr`, ensure to redirect `stdout` before using `2>&1` to redirect `stderr` to the same destination. If the order is reversed, you may find that your errors still display on the screen rather than in the intended file, as `stderr` was directed to the original location of `stdout` before it was redirected to the file. Always check the sequence of redirections to confirm that the outputs will be routed to the correct destinations."##
+
+### Piping
+
+The command `grep –v '^#' /etc/login.defs | sort | column -t` is a sequence of piped commands that filters, sorts, and formats the content of the file `/etc/login.defs`. Here's a breakdown of what each part of the pipeline does:
+
+1. `grep –v '^#' /etc/login.defs`:
+   - `grep` is a command-line utility for searching plain-text data for lines that match a regular expression.
+   - The `-v` option inverts the match, meaning it will select lines that do not match the given pattern.
+   - `'^#'` is the pattern provided to `grep`, which matches any line that starts with the character `#`, typically used for comments in configuration files.
+   - `/etc/login.defs` is the file being searched through. This file usually contains configuration settings for user accounts and password requirements.
+   - So, `grep –v '^#' /etc/login.defs` outputs all lines in `/etc/login.defs` that are not comments (i.e., do not start with `#`).
+
+2. `sort`:
+   - The `sort` command sorts lines of text files.
+   - It takes the output of the `grep` command (which is the non-comment lines of `/etc/login.defs`) and sorts them alphabetically (or numerically, if appropriate).
+
+3. `column -t`:
+   - The `column` command formats its input into multiple columns.
+   - The `-t` option determines how the output is to be formatted; it creates a table with the input, where each column has a width just wide enough to fit the longest item in the column.
+   - It takes the sorted lines from `sort` and aligns them into a table for a cleaner, more readable presentation.
+
+The entire pipeline does the following:
+- Filters out comment lines from the `/etc/login.defs` file.
+- Sorts the resulting lines.
+- Formats the sorted lines into a nicely aligned table.
+
+As for the output, it would be the content of `/etc/login.defs` without any comments, sorted alphabetically, and formatted into a table. The actual content would depend on the specific configurations within your `/etc/login.defs` file. The table format is particularly helpful if the lines consist of fields of data separated by spaces or some other delimiter, making it easier to read.
 
 ### Conclusion
 
