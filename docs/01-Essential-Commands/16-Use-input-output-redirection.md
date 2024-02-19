@@ -90,14 +90,53 @@ Outputs a neatly formatted table of configuration settings.
 
 ### Backing Up and Redirecting
 
-If you want to backup the current `stdout` and `stderr`:
+Let us break down three `grep` command scenarios and clarify the nuances of how output and error redirection work in the shell.
+
+### Scenario 1: Redirecting Both Output and Errors to a File
 
 ```bash
-$ exec 3>&1 4>&2
+$ grep -r '^The' /etc/ > all_output.txt 2>&1
+```
+
+In this command:
+
+- `grep -r '^The' /etc/` searches recursively in the `/etc/` directory for lines starting with "The".
+- `> all_output.txt` redirects the standard output (`stdout`, file descriptor 1) to a file named `all_output.txt`.
+- `2>&1` redirects the standard error (`stderr`, file descriptor 2) to wherever standard output is currently going. In this case, since `stdout` has already been redirected to `all_output.txt`, `stderr` will also go to `all_output.txt`.
+
+So, both the results of the search and any error messages will be written to `all_output.txt`. Nothing will be shown on the screen because all output has been redirected to the file.
+
+### Scenario 2: Redirecting Both Output and Errors to a File (Explicitly)
+
+```bash
 $ grep -r '^The' /etc/ 1>all_output.txt 2>&1
 ```
 
-This will redirect all output to `all_output.txt`, while file descriptors 3 and 4 can be used to restore the original `stdout` and `stderr`.
+This command is essentially the same as the first one, with a minor syntactic difference:
+
+- `1>all_output.txt` explicitly redirects `stdout` to `all_output.txt` (the `1` is usually implied and therefore optional).
+- `2>&1` again redirects `stderr` to where `stdout` is going, which is `all_output.txt`.
+
+Just as in the first scenario, all search results and error messages will end up in `all_output.txt`.
+
+### Scenario 3: Incorrect Order of Redirection
+
+```bash
+$ grep -r '^The' /etc/ 2>&1 1>all_output.txt
+```
+
+This command has a redirection order issue:
+
+- `2>&1` attempts to redirect `stderr` to where `stdout` is currently going, which at this point is still the screen.
+- `1>all_output.txt` then redirects `stdout` to `all_output.txt`, but `stderr` was already directed to the screen in the previous step.
+
+As a result, the search results (`stdout`) will be written to `all_output.txt`, but the error messages (`stderr`) will still be displayed on the screen. The error messages are not written to the file because the redirection of `stderr` occurred before `stdout` was redirected to the file.
+
+### The Importance of Order in Redirection
+
+The key takeaway here is that the shell processes redirections in the order they appear on the command line. In Scenario 3, by the time the shell wants to redirect `stdout` to the file, `stderr` has already been told to go wherever `stdout` was originally going (the screen), and changing `stdout` afterwards does not affect `stderr`.
+
+"In Linux shell commands, the order of redirection is crucial. When redirecting both `stdout` and `stderr`, ensure to redirect `stdout` before using `2>&1` to redirect `stderr` to the same destination. If the order is reversed, you may find that your errors still display on the screen rather than in the intended file, as `stderr` was directed to the original location of `stdout` before it was redirected to the file. Always check the sequence of redirections to confirm that the outputs will be routed to the correct destinations."
 
 ### Conclusion
 
