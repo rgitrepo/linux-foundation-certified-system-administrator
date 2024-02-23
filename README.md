@@ -31,7 +31,7 @@ These are notes for the LFCS course.
 - [02-Operations of Running Systems](docs/)
 
   - [01-Boot, reboot, and shutdown a system safely](docs/02-Operations-Deployment/01-Boot-reboot-and-shutdown-a-system-safely.md)
-  - [02-Boot or change system into different operating modes](docs/)
+  - [02-Boot or change system into different operating modes](docs/02-Operations-Deployment/02-Boot-or-change-system-into-different-operating-modes.md)
   - [03-Install, configure and troubleshoot bootloaders](docs/)
   - [04-Use scripting to automate system maintenance tasks](docs/)
   - [05-Manage the startup process and services (In Services Configuration)](docs/)
