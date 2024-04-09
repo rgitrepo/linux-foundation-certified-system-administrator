@@ -47,11 +47,7 @@ While most Linux servers lack a GUI, exceptions exist. Remote graphical logins c
 
 For text-based remote connections, SSH (Secure Shell) is the standard, thanks to its secure, encrypted communication protocol, which replaced the insecure telnet. OpenSSH, the implementation of SSH used by millions of servers, ensures that connections are both secure and reliable. 
 
-To connect via SSH, you'll need the IP address of your server. On Linux or macOS, you can use the preinstalled SSH client by opening a terminal and typing a command like `ssh user@192.168.0.17`, replacing "user" with your actual username and "192.168.0.17" with your server's IP address. 
-
-I can guide you through a textual representation of what entering an SSH command into a terminal to connect to a remote server would look like, using the provided IP address `192.168.0.17`. However, please remember that I can't execute real commands or show live terminal output. Let's assume your remote server's username is `user`. Here's how you'd proceed:
-
-![ssh login](../../images/ssh-login.png)
+To connect via SSH, you'll need the IP address of your server. On Linux or macOS, you can use the preinstalled SSH client by opening a terminal and typing a command like `ssh user@192.168.0.17`, replacing "user" with your actual username and "192.168.0.17" with your server's IP address.  
 
 Windows users on versions prior to Windows 10 may need to install an SSH client like PuTTY, while newer versions come with SSH support out of the box.
 
